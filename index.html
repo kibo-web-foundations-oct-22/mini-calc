@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kibo Calculator</title>
+        <style>
+        #calculator {
+            display: grid;
+            max-width: 300px;
+        }
+        .operations {
+            border: black 1px solid;
+            padding: 1px;
+            margin: 1px;
+            max-width: 30px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+    </head>
+    <body>
+        <form id="calculator">
+            <input id="no1" class="numbers" type="number">
+            <input id="no2" class="numbers" type="number">
+            <a href="#" id="plus" class="operations">+</a>
+            <a href="#" id="minus" class="operations">-</a>
+            <a href="#" id="multiply" class="operations">x</a>
+            <button id="equals" class="operations">=</button>
+        </form>
+
+        <p id="answer"></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
