@@ -32,6 +32,6 @@ equals = document.getElementById("equals")
 equals.addEventListener("click",() =>{
   firstInput = document.getElementById("no1").value
   secondInput = document.getElementById("no2").value
-  result = parseFloat(firstInput) / parseFloat(secondInput)
+  result = parseFloat(firstInput) = parseFloat(secondInput)
   document.getElementById("answer").innerText = result
 })

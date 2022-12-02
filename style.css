@@ -17,14 +17,23 @@ html, body {
 a, button {
   text-decoration: none;
   font-weight: bold;
-  background: #007bff;
+  background: #ff7300;
   color: white;
   padding: 5px;
-  max-width: 30px;
+  max-width: 50px;
   margin: 10px;
 }
 
 input{
   height:20px;
   margin: 10px 0 10px 0;
+}
+
+#answer{
+  font-size: 36px;
+  font-weight: bold;
+  background: red;
+  padding: 15px;
+  max-width: 50px;
+  margin: 10px;
 }
